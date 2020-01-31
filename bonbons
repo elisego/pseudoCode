@@ -1,0 +1,11 @@
+début achatbonbon (prix, argent)
+	bonbon <- O
+	si argent > 0 ET prix > O
+	alors
+		tant que argent > prix
+			bonbon  <- bonbon + 1
+		fin tant que
+		
+		retourner bonbon
+	
+fin achatbonbon
