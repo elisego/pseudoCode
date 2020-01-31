@@ -4,7 +4,7 @@ argent = definirl'argentenpoche
 début achatbonbon (prix, argent)
 	bonbon <- O
 	si argent > 0 ET prix > O
-	tant que argent > prix
+	tant que argent >= prix
 		argent <- argent - prix
 		bonbon  <- bonbon + 1
 	fin tant que
