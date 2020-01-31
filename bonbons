@@ -3,6 +3,7 @@ début achatbonbon (prix, argent)
 	si argent > 0 ET prix > O
 	alors
 		tant que argent > prix
+			argent <- argent - prix
 			bonbon  <- bonbon + 1
 		fin tant que
 		
